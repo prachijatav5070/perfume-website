@@ -1,0 +1,130 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+// box
+
+.box_parent{
+    display: flex;
+  
+    justify-content: space-around;
+    
+}
+.hero_contentabout{
+  background:url(images/Gifting/Main.webp) no-repeat center center /cover;
+ height: 50vh;
+ width: 100%;
+
+}
+
+.box_parent .left_box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+
+  #heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    background-color:black;
+    color: white;
+    font-size: 17px;
+
+  }
+  .brand{
+   display: flex;
+   flex-direction: column;
+   align-items: start;
+   justify-content:center;
+   gap: 20px;
+
+   div{
+    display: flex;
+    gap: 20px;
+   }
+  }
+}
+
+.box_parent .box_right{
+
+            display: grid;
+            grid-template-columns: auto auto auto auto auto;
+            // gap: 20px;
+            text-align: justify;
+            justify-content: center;
+            margin: 30px;
+            padding: 20px;
+            gap: 30px;
+
+         .box{
+          transition: transform 0.3s ease-in-out;
+          cursor: pointer;
+          
+          }  
+          .box img:hover{
+          transform: scale(1.2);
+          }
+           
+           h5 {
+                font-size: 20px;
+                
+               
+             a{
+                text-decoration: none;   
+                color: black;
+            }
+            }
+            h4{
+              font-size: 20px;  
+            }
+            img{
+                width: 200px;
+                height: 180px;
+            }
+           
+    }
+
+    // for tablet view    ---------------------
+ 
+    @media screen and (max-width: 768px) {
+      .box_parent{
+        flex-direction: column;
+      }
+      #heading{
+        flex-direction: column;
+      }
+      
+      .box_parent .box_right {
+          min-width: 100%;
+          grid-template-columns: auto auto;
+      }
+  }
+
+    // for mobile view ----------------
+
+    @media screen and (max-width: 480px) {
+      .box_parent{
+        flex-direction: column;
+      }
+  
+      #heading{
+        flex-direction: column;
+      }
+      
+      .box_parent .box_right {
+          min-width: 100%;
+          grid-template-columns: auto auto;
+      }
+      }
+    
+ 
+
+
+
+
+
+ 

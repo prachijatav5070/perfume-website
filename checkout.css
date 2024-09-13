@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.top {
+  margin-bottom: 20px;
+  background-color: whitesmoke;
+  height: 40px;
+  border: 1px solid rgb(249, 244, 244);
+  display: flex;
+  justify-content: space-between;
+}
+.top .logo {
+  font-size: 30px;
+  color: rgb(31, 25, 27);
+}
+.top .logo span {
+  color: rgb(106, 47, 127);
+}
+.top ul {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+.top ul :hover {
+  color: rgb(51, 19, 148);
+  background-color: rgb(220, 208, 210);
+}
+.top a {
+  text-decoration: none;
+  padding: 10px;
+}
+
+.full_box {
+  background: linear-gradient(white, rgb(209, 167, 88));
+}
+
+.box {
+  padding: 10px;
+  background-color: white;
+  margin: auto;
+  height: 100vh;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+.box .shopping_bag {
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+  margin: 1px;
+}
+.box .shopping_bag a {
+  font-size: 18px;
+  color: rgb(71, 63, 63);
+}
+.box .change {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  padding: 10px;
+  background-color: rgb(241, 237, 237);
+}
+.box .change .rightchange {
+  display: flex;
+}
+.box .change .leftchange {
+  color: red;
+  font-weight: 30px;
+}
+
+.product {
+  display: flex;
+  justify-content: space-evenly;
+  border: 1px solid rgb(202, 195, 195);
+}
+.product .box_1 img {
+  width: 100%;
+  height: 200px;
+}
+.product .box_2 .content {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.product .box_2 .content a {
+  color: rgb(71, 63, 63);
+  font-size: 20px;
+}
+.product .box_2 input {
+  padding: 5px;
+  margin: 5px;
+  font-size: 15px;
+}
+.product .box_2 h4 {
+  font-size: 20px;
+}
+
+.delivery {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgb(202, 195, 195);
+  padding: 15px;
+}
+.delivery a {
+  color: rgb(71, 63, 63);
+  font-size: 20px;
+}
+.delivery span {
+  color: green;
+  font-size: 20px;
+  font-weight: 10px;
+}
+
+.coupon {
+  margin-top: 10px;
+  display: flex;
+  border: 1px solid rgb(202, 195, 195);
+}
+.coupon a {
+  padding: 15px;
+  color: orchid;
+  font-size: 20px;
+}
+
+.price {
+  display: flex;
+  justify-content: space-between;
+  font-size: 17px;
+  margin-top: 20px;
+}
+.price .right {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.price .left {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.price span {
+  color: green;
+  font-weight: 10px;
+}
+
+.bottom {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgb(202, 195, 195);
+}
+.bottom .right {
+  padding: 5px;
+}
+.bottom button {
+  background-color: red;
+  border-radius: 20px;
+  font-size: 20px;
+  padding: 20px;
+  color: white;
+}/*# sourceMappingURL=checkout.css.map */
